@@ -4,7 +4,7 @@ body {
 	font-size: 40px;
 	height: 100%;
 }
-.boxa{
+.boxa,.boxb{
 	height: 150px;
 	width: 100px;
 	text-align: left;
@@ -16,14 +16,6 @@ body {
   cursor: pointer;
   background-color: yellow;
   color: goldenrod;
-}
-.boxb{
-	height: 150px;
-	width: 100px;
-	text-align: left;
-	background-color: #eeeff2; 
-	border-left: 10px dotted #D0D0FF;
-	margin-left: 10px;
 }
 .boxb:hover {
   cursor: pointer;
@@ -50,13 +42,13 @@ p {
     bottom: 0;
     right: 0;
     float:right;
-	width: 100px;
+    width: 100px;
     height: 150px;
     background-color: #eeeff2;
-	margin-left: 5px;
-	margin-right: 5px;
-	border-left: 10px dotted #D0D0FF; 
-	text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-left: 10px dotted #D0D0FF; 
+    text-align: center;
 }
 .f:hover {
   cursor: pointer;
